@@ -1,0 +1,19 @@
+{
+  "name": "record.gamezop.io",
+  "version": "0.1.0",
+  "description": "influx db service to record interactions between api and user",
+  "main": "src/app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abhinav Sharma <sharma.abhinav503@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^13.2.1",
+    "influx": "^4.1.0",
+    "joi": "^8.0.5",
+    "lodash": "^4.6.1",
+    "pm2": "^1.0.2",
+    "typescript": "^1.8.9"
+  }
+}

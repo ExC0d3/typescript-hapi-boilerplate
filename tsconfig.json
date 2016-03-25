@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "isolatedModules": false,
+        "jsx": "react",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "outDir": "build"
+    },
+    "compileOnSave": true,
+    "buildOnSave": false,
+    "exclude": [
+      "typings/browser.d.ts",
+      "typings/browser",
+      "node_modules"
+    ],
+    "atom": {
+        "rewriteTsconfig": true
+    }
+}
