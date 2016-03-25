@@ -2,9 +2,11 @@
   "name": "record.gamezop.io",
   "version": "0.1.0",
   "description": "influx db service to record interactions between api and user",
-  "main": "src/app.ts",
+  "main": "server/app.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile":"./node_modules/typescript/bin/tsc",
+    "dev":"npm run compile && ./node_modules/pm2/bin/pm2 start build/server/app.js -i 0 --watch --no-daemon"
   },
   "author": "Abhinav Sharma <sharma.abhinav503@gmail.com>",
   "license": "ISC",

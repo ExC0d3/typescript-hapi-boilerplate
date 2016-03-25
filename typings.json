@@ -1,7 +1,8 @@
 {
   "ambientDependencies": {
     "hapi": "registry:dt/hapi#13.0.0+20160316155526",
-    "joi": "registry:dt/joi#6.5.0+20160319050807"
+    "joi": "registry:dt/joi#6.5.0+20160319050807",
+    "node": "registry:dt/node#4.0.0+20160319033040"
   },
   "dependencies": {
     "lodash": "registry:npm/lodash#4.0.0+20160305082308"
