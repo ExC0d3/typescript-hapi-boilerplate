@@ -6,13 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile":"./node_modules/typescript/bin/tsc",
-    "dev":"npm run compile && ./node_modules/pm2/bin/pm2 start build/server/app.js -i 0 --watch --no-daemon"
+    "dev":"npm run compile && nodemon build/server/app.js"
   },
   "author": "Abhinav Sharma <sharma.abhinav503@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "hapi": "^13.2.1",
-    "influx": "^4.1.0",
     "joi": "^8.0.5",
     "lodash": "^4.6.1",
     "pm2": "^1.0.2",
